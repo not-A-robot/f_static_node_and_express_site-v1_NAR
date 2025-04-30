@@ -1,0 +1,32 @@
+{
+    "data": {
+        "projects": [
+            {
+                "id": "0",
+                "project_name": "Javascript CRM",
+                "description": "A filterable CRM",
+                "technologies": ["javascript", "html", "css"],
+                "live_link": "http://www.jeffdelacruz.com",
+                "github_link": "http://www.github.com/cat",
+                "image_urls": [
+                    "static/images/project_example_crm.jpg",
+                    "static/images/project_example_crm_2.jpg"
+                ],
+                "thumbnail": "static/images/project_thumb_crm.jpg"
+            },
+            {
+                "id": "1",
+                "project_name": "Phrase Hunter",
+                "description": "A browser based word guessing game.  Pick letters and attempt to figure out the word before your guesses run out.",
+                "technologies": ["javascript", "html", "css"],
+                "live_link": "http://www.jeffdelacruz.com",
+                "github_link": "http://www.github.com/cat",
+                "image_urls": [
+                    "static/images/project_example_phrase.jpg",
+                    "static/images/project_example_crm_phrase_2.jpg"
+                ],
+                "thumbnail": "static/images/project_thumb_phrase_hunter.jpg"
+            }
+        ]
+    }
+}
