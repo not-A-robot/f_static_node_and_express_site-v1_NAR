@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content
+
+    article.portfolio-projects  
+        .inner-wrapper.flex-row-wrap.two-col
+            .project-info-box.box
+                h1= status
+                h2= message
+
+                nav.nav
+                a(href='/')
+                    span &larr;
+                    |  Back
