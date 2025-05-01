@@ -38,7 +38,6 @@ app.get('/project', (req, res) => {
 
 app.get('/project/:id', (req, res) => {
     const projectData = projects[req.params.id]
-    console.log(projectData)
     res.render('project', projectData);
 }); 
 
@@ -48,16 +47,22 @@ app.get('/project/:id', (req, res) => {
 
 //Call 404 on unknown route
 app.use((req, res, next) => {
-    const err = new Error('Oops... This page wasn\'t found!');
-    err.status = 404;
-    next(err) //pass to error handler
-})
+    res.status(404);
+    res.locals.status = 404;
+    res.locals.message = "Oops... This Page Doesn't Exist!";
+    res.render('page-not-found');
+});
 
 //Error Handler
 app.use((err, req, res, next) => {
-    res.status(err.status || 500);
-    res.locals.message = err.message || 'Internal Server Error';
-    res.locals.status = err.status || 500;
+    res.status(err.status || 500); //can accept error routing or if none set to 500
+    res.locals.status = err.status || 500; //if undefined then 500
+    if(res.locals.status === 500){
+        res.locals.message = "A Server Error Has Occured";
+    } else {
+        res.locals.message = err.message;
+    }
+    res.locals.stack = err.stack
     res.render('error');
 });
 
