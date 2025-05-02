@@ -6,7 +6,7 @@
                 "project_name": "Employee CRM",
                 "description": "This JavaScript web application fetches random user profiles from an API and displays them in a gallery-style layout. Users can search for employees, view additional details in a modal popup, and navigate through the profiles.",
                 "technologies": ["javascript", "html", "css"],
-                "live_link": "https://www.close.com/demo",
+                "live_link": "https://not-a-robot.github.io/e_public_api_requests_project_NAR/",
                 "github_link": "https://github.com/not-A-robot/e_public_api_requests_project_NAR",
                 "image_urls": [
                     "static/images/project_example_crm.jpg",
