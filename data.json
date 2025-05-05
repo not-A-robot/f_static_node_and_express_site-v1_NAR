@@ -27,6 +27,47 @@
                     "static/images/project_example_phrase2.jpg"
                 ],
                 "thumbnail": "static/images/project_thumb_phrase_hunter2.jpg"
+            },
+
+            {
+                "id": "2",
+                "project_name": "A Random Quote Generator",
+                "description": "It's simple.  Just click the button and it reveals a new quote!",
+                "technologies": ["javascript", "html", "css"],
+                "live_link": "https://not-a-robot.github.io/a_random_quote_generator-v1_NAR/",
+                "github_link": "https://github.com/not-A-robot/a_random_quote_generator-v1_NAR",
+                "image_urls": [
+                    "static/images/project_example_quote1.jpg",
+                    "static/images/project_example_quote2.jpg",
+                    "static/images/project_example_quote3.jpg"
+                ],
+                "thumbnail": "static/images/project_thumb_quote.jpg"
+            },
+            {
+                "id": "3",
+                "project_name": "Student Database",
+                "description": "A student data that can be filtered using an advanced filtering system",
+                "technologies": ["javascript", "html", "css"],
+                "live_link": "https://not-a-robot.github.io//b_data-pagination-and-filtering-v1_NAR/",
+                "github_link": "https://github.com/not-A-robot/b_data-pagination-and-filtering-v1_NAR",
+                "image_urls": [
+                    "static/images/project_example_filter1.jpg",
+                    "static/images/project_example_filter2.jpg"
+                ],
+                "thumbnail": "static/images/project_thumb_filter.jpg"
+            },
+            {
+                "id": "4",
+                "project_name": "Interactive Form",
+                "description": "An interative form with conditionals and error handling.",
+                "technologies": ["javascript", "html", "css"],
+                "live_link": "https://not-a-robot.github.io/c_interactive-form-v3_NAR/",
+                "github_link": "https://github.com/not-A-robot/c_interactive-form-v3_NAR",
+                "image_urls": [
+                    "static/images/project_example_form1.jpg",
+                    "static/images/project_example_form2.jpg"
+                ],
+                "thumbnail": "static/images/project_thumb_form.jpg"
             }
         ]
     }
